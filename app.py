@@ -85,8 +85,8 @@ def odd_number_list(number):
     # numbers = generate_num_list(number)
 
     # need to check if input number is less than 1!
-    if number < 2:
-        return "There aren't any numbers to print since yours is less than 2! (One is not a prime, I know, it's weird)"
+    if number < 1:
+        return "There aren't any numbers to print since yours is less than 1!"
 
     numbers = []
     for num in range(1, number + 1):
@@ -128,9 +128,9 @@ def prime_number_list(number):
     """
     # numbers = generate_num_list(number)
 
-    # need to check if input number is less than 1!
-    if number < 1:
-        return "There aren't any numbers to print since yours is less than 1!"
+    # need to check if input number is less than 2!
+    if number < 2:
+        return "There aren't any numbers to print since yours is less than 2! (One is not a prime. I know, it's weird)"
 
     numbers = []
 
